@@ -34,7 +34,7 @@ How to use it:
 4. Do the same for the rest three boxes.
 5. Save.
 6. Your scheme is saved and stored locally in scheme.json file. 
-7. Browse your saved schemes for getting RGB and HEX codes.
+7. Browse your Saved Schemes for getting RGB and HEX codes.
 
 #################
 
