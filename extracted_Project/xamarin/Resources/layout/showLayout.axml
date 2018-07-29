@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:background="#1B2432">
+    <Button
+        android:layout_width="70dp"
+        android:layout_height="300dp"
+        android:layout_marginTop="50dp"
+        android:id="@+id/showFirstBTN" />
+    <Button
+        android:layout_width="70dp"
+        android:layout_height="300dp"
+        android:layout_marginTop="50dp"
+        android:layout_toRightOf="@id/showFirstBTN"
+        android:id="@+id/showSecondBTN" />
+    <Button
+        android:layout_width="70dp"
+        android:layout_height="300dp"
+        android:layout_marginTop="50dp"
+        android:layout_toRightOf="@id/showSecondBTN"
+        android:id="@+id/showThirdBTN" />
+    <Button
+        android:layout_width="70dp"
+        android:layout_height="300dp"
+        android:layout_marginTop="50dp"
+        android:layout_toRightOf="@id/showThirdBTN"
+        android:id="@+id/showFourthBTN" />
+    <TextView
+        android:text="Color-Color-Color-Color"
+        android:id="@+id/textColors"
+        android:layout_width="275.0dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="20.0dp"
+        android:layout_marginBottom="50.0dp"
+        android:layout_below="@id/showFirstBTN" />
+</RelativeLayout>

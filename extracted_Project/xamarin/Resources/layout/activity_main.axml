@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/coordinatorLayout1"
+    android:minWidth="25px"
+    android:minHeight="25px">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/relativeLayout1"
+        android:gravity="center"
+        android:background="#1B2432">
+        <ImageView
+            android:src="@drawable/logo"
+            android:id="@+id/logoView"
+            android:layout_width="300dp"
+            android:layout_height="300dp" />
+        <Button
+            android:text="Image from gallery"
+            android:id="@+id/button1"
+            android:layout_width="300dp"
+            android:layout_height="80dp"
+            android:layout_below="@id/logoView" />
+        <Button
+            android:text="Photo"
+            android:layout_width="300dp"
+            android:layout_height="80dp"
+            android:layout_below="@id/button1"
+            android:id="@+id/button2" />
+        <Button
+            android:text="Saved schemes"
+            android:layout_width="300dp"
+            android:layout_height="80dp"
+            android:layout_below="@id/button2"
+            android:id="@+id/listButton" />
+    </RelativeLayout>
+</android.support.design.widget.CoordinatorLayout>
